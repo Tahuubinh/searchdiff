@@ -1,0 +1,2 @@
+defaults:
+  - /callbacks@_here_: [checkpoint_every_n_steps, checkpoint_monitor, learning_rate_monitor, early_stopping]

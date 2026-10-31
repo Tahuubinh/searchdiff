@@ -1,0 +1,10 @@
+train: grampa_classifier
+valid: grampa_classifier
+tokenizer_name_or_path: grampa
+cache_dir: data/cache
+wrap: False
+streaming: False
+override_cache: False
+add_special_tokens: True
+label_col: label
+num_classes: 4  # Labels 0, 1, 2, 3

@@ -1,0 +1,8 @@
+train: grampa
+valid: grampa
+tokenizer_name_or_path: grampa
+cache_dir: /bigtemp/nzj6jt/workspace/project/discrete-diffusion-guidance/data/cache/
+wrap: False
+streaming: False
+override_cache: False
+add_special_tokens: True

@@ -1,0 +1,8 @@
+early_stopping:
+  _target_: lightning.pytorch.callbacks.EarlyStopping
+  monitor: val/cross_entropy  # metric to monitor
+  mode: min  # "min" for loss/error, "max" for accuracy
+  patience: 5  # number of validation checks with no improvement
+  min_delta: 0.0001  # minimum change to qualify as an improvement
+  verbose: True
+  check_on_train_epoch_end: False  # check at validation end
